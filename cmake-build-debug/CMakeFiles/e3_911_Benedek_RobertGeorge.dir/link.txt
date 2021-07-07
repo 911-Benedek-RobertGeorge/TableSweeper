@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\e3_911_Benedek_RobertGeorge.dir/objects.a
+D:\Programs\mingw_64bit\mingw64\bin\ar.exe cr CMakeFiles\e3_911_Benedek_RobertGeorge.dir/objects.a @CMakeFiles\e3_911_Benedek_RobertGeorge.dir\objects1.rsp
+D:\Programs\mingw_64bit\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\e3_911_Benedek_RobertGeorge.dir/objects.a -Wl,--no-whole-archive -o e3_911_Benedek_RobertGeorge.exe -Wl,--out-implib,libe3_911_Benedek_RobertGeorge.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\e3_911_Benedek_RobertGeorge.dir\linklibs.rsp
