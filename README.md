@@ -17,4 +17,4 @@ It is a collaborative implementation of the classical [Minesweeper game](https:/
  
 
  
-<img width="488" alt="mines" src="https://user-images.githubusercontent.com/25611695/124588379-64d7f280-de61-11eb-887c-c4b68992f1a3.png">
+<img width="488" alt="mines" src="https://github.com/911-Benedek-RobertGeorge/TableSweeper/blob/02946914132d7b840616b915a237c7558b79a44b/Screenshot_2.png">
