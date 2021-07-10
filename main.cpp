@@ -15,9 +15,12 @@ int main (int argc, char* argv[]){
     for(i = 0; i < repo.getNrUsers(); ++i){
         windows.push_back(new Window(repo,users[i],i,repo.getSize()));
         repo.addObserver(windows[i]);
-        windows[i]->resize( 500,570) ;
+        windows[i]->resize( 550,440) ;
 
         windows[i]->show();
     }
+
+    windows[0]->round();
+
     return a.exec();
 }

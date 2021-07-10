@@ -1,4 +1,4 @@
-# Install script for directory: D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge
+# Install script for directory: D:/faculta/Sem 2/OOP/TableSweeper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

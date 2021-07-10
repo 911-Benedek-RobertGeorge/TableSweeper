@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge"
+CMAKE_SOURCE_DIR = "D:\faculta\Sem 2\OOP\TableSweeper"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug"
 
 # Utility rule file for e3_911_Benedek_RobertGeorge_autogen.
 
@@ -72,8 +72,8 @@ CMAKE_BINARY_DIR = "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build
 include CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/progress.make
 
 CMakeFiles/e3_911_Benedek_RobertGeorge_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target e3_911_Benedek_RobertGeorge"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/AutogenInfo.json" Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target e3_911_Benedek_RobertGeorge"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/AutogenInfo.json" Debug
 
 e3_911_Benedek_RobertGeorge_autogen: CMakeFiles/e3_911_Benedek_RobertGeorge_autogen
 e3_911_Benedek_RobertGeorge_autogen: CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/clean:
 .PHONY : CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/clean
 
 CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug\CMakeFiles\e3_911_Benedek_RobertGeorge_autogen.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\faculta\Sem 2\OOP\TableSweeper" "D:\faculta\Sem 2\OOP\TableSweeper" "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug" "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug" "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug\CMakeFiles\e3_911_Benedek_RobertGeorge_autogen.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/depend
 

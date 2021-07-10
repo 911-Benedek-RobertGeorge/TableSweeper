@@ -17,6 +17,7 @@
 #include <QMessageBox>
 #include "vector"
 #include "algorithm"
+
 using std::vector;
 
 class Observer
@@ -24,12 +25,14 @@ class Observer
 public:
     // functie pur abstracta pentru actualizare
     virtual void update_() = 0;
+    virtual void closee()=0;
 };
 
 class Observable {
 
 private:
     vector<Observer*> observers;
+    int order = 0;
 public:
     // adauga un observer in lista de observeri (raportat la obiectul observabil)
     void addObserver(Observer* o)
@@ -47,11 +50,20 @@ public:
     {
         if (observers.size() == 0){
 
-    std::cout << "game OVER";
+            QMessageBox::information(reinterpret_cast<QWidget *>(this), "TableSweeper!", "Game Over! ");
+
         }
+
+        order = (order + 1 )% observers.size();
+
         for (auto &  x : observers)
             x->update_();
     }
+    void close_game(){
+        for (auto &  x : observers)
+            x->closee();
+    }
+
 };
 
 

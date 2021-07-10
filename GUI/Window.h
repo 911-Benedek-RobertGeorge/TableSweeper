@@ -7,7 +7,7 @@
 
 
 #include <QLabel>
- #include <QTableView>
+#include <QTableView>
 #include <QVBoxLayout>
 #include <QSortFilterProxyModel>
 #include <QPushButton>
@@ -50,21 +50,21 @@ public:
     void initGUI();
 
     Window( Repo &repo, const string &name, int pozition, int size , QWidget *parent = Q_NULLPTR ) :
-    name(name),
-    repo(repo),
-    pozition(pozition) ,
-    size{size}{
+            name(name),
+            repo(repo),
+            pozition(pozition) ,
+            size{size}
+    {
         initGUI();
         initSignals();
     }
 
     void update_() override;
-
-
-    int getSelectedIndex();
-
-    void check();
-
+    void closee() override{
+        this->closee();
+    }
+    void next();
+    void round();
     void init_table();
     void set_collor();
 };

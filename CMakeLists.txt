@@ -18,8 +18,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(Domain)
 
 add_executable(e3_911_Benedek_RobertGeorge
-        Domain/User.cpp
-        Domain/User.h
+
         main.cpp
         Repository/Repo.cpp
         Repository/Repo.h

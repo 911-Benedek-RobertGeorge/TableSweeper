@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Domain/User.cpp.obj"
   "CMakeFiles/e3_911_Benedek_RobertGeorge.dir/GUI/Window.cpp.obj"
   "CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Repository/Repo.cpp.obj"
   "CMakeFiles/e3_911_Benedek_RobertGeorge.dir/e3_911_Benedek_RobertGeorge_autogen/mocs_compilation.cpp.obj"

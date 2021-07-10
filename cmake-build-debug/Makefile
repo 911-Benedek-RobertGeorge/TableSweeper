@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge"
+CMAKE_SOURCE_DIR = "D:\faculta\Sem 2\OOP\TableSweeper"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug\CMakeFiles" "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug\CMakeFiles" "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\faculta\Sem 2\OOP\e3-911-Benedek-RobertGeorge\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\faculta\Sem 2\OOP\TableSweeper\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -153,33 +153,6 @@ e3_911_Benedek_RobertGeorge_autogen: cmake_check_build_system
 e3_911_Benedek_RobertGeorge_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\e3_911_Benedek_RobertGeorge_autogen.dir\build.make CMakeFiles/e3_911_Benedek_RobertGeorge_autogen.dir/build
 .PHONY : e3_911_Benedek_RobertGeorge_autogen/fast
-
-Domain/User.obj: Domain/User.cpp.obj
-
-.PHONY : Domain/User.obj
-
-# target to build an object file
-Domain/User.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\e3_911_Benedek_RobertGeorge.dir\build.make CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Domain/User.cpp.obj
-.PHONY : Domain/User.cpp.obj
-
-Domain/User.i: Domain/User.cpp.i
-
-.PHONY : Domain/User.i
-
-# target to preprocess a source file
-Domain/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\e3_911_Benedek_RobertGeorge.dir\build.make CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Domain/User.cpp.i
-.PHONY : Domain/User.cpp.i
-
-Domain/User.s: Domain/User.cpp.s
-
-.PHONY : Domain/User.s
-
-# target to generate assembly for a file
-Domain/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\e3_911_Benedek_RobertGeorge.dir\build.make CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Domain/User.cpp.s
-.PHONY : Domain/User.cpp.s
 
 GUI/Window.obj: GUI/Window.cpp.obj
 
@@ -299,9 +272,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... e3_911_Benedek_RobertGeorge_autogen
 	@echo ... e3_911_Benedek_RobertGeorge
-	@echo ... Domain/User.obj
-	@echo ... Domain/User.i
-	@echo ... Domain/User.s
 	@echo ... GUI/Window.obj
 	@echo ... GUI/Window.i
 	@echo ... GUI/Window.s

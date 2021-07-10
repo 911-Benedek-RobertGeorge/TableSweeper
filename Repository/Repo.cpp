@@ -34,6 +34,7 @@ int Repo::getNrUsers() const {
 }
 
 void Repo::setcell(int i, int j, int val) {
+    this->next();
     a[i][j] = val;
 }
 
@@ -48,8 +49,8 @@ void Repo::place_mines() {
     int y = rand()%size ;
     for(int i = 1; i < mines; ++i){
         while(a[x][y] != 0 ){
-             x = rand()%size ;
-             y = rand()%size ;
+            x = rand()%size ;
+            y = rand()%size ;
         }
         a[x][y] = 9;
     }
@@ -61,67 +62,107 @@ int Repo::getCell(int i,int h) {
 }
 
 int Repo::adjacentMines(int i, int j) {
-   ///for coordinate (i, j) in array[row][col]
-   int count =0 ;
+    ///for coordinate (i, j) in array[row][col]
+    int count =0 ;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     i ++ ;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }j--;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }j+=2;
 
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     i--;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     i--;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     j--;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     j--;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5|| a[i][j] ==6){
             count ++;
         }
 
     }
     i ++;
     if ((0 <= i) && (i < size) && (0 <= j) && (j < size)) {
-        if (a[i][j] == 9 || a[i][j] == 5){
+        if (a[i][j] == 9 || a[i][j] == 5 || a[i][j] ==6){
             count ++;
         }
     }
     return count;
+}
+
+void Repo::next() {
+    int nr = users.size();
+    curent = (curent +1) %nr;
+    while(freq[curent])
+    {
+        curent = (curent +1) %nr;
+    }
+}
+
+int Repo::getCurent() {
+    return curent;
+}
+
+bool Repo::discoverMine() {
+    discovered_Mines ++;
+    if(discovered_Mines < mines) return 0;
+    return 1;
+}
+
+void Repo::eliminate(string name) {
+    freq[curent] = 1;
+
+
+}
+
+string Repo::get_winner() {
+    int maxx = 0, poz = 0;
+    for(int i = 0; i < users.size(); ++i)
+    {
+        if(maxx < winner[i]){
+            maxx = winner[i];
+            poz = i;
+        }
+    }
+    return users[poz];
+}
+void Repo::add_revealed_mine() {
+    winner[curent] ++;
 }

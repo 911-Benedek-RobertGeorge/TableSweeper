@@ -4,11 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/Domain/User.cpp" "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Domain/User.cpp.obj"
-  "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/GUI/Window.cpp" "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/GUI/Window.cpp.obj"
-  "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/Repository/Repo.cpp" "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Repository/Repo.cpp.obj"
-  "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/e3_911_Benedek_RobertGeorge_autogen/mocs_compilation.cpp" "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/e3_911_Benedek_RobertGeorge_autogen/mocs_compilation.cpp.obj"
-  "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/main.cpp" "D:/faculta/Sem 2/OOP/e3-911-Benedek-RobertGeorge/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/main.cpp.obj"
+  "D:/faculta/Sem 2/OOP/TableSweeper/GUI/Window.cpp" "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/GUI/Window.cpp.obj"
+  "D:/faculta/Sem 2/OOP/TableSweeper/Repository/Repo.cpp" "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/Repository/Repo.cpp.obj"
+  "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/e3_911_Benedek_RobertGeorge_autogen/mocs_compilation.cpp" "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/e3_911_Benedek_RobertGeorge_autogen/mocs_compilation.cpp.obj"
+  "D:/faculta/Sem 2/OOP/TableSweeper/main.cpp" "D:/faculta/Sem 2/OOP/TableSweeper/cmake-build-debug/CMakeFiles/e3_911_Benedek_RobertGeorge.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
