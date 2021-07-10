@@ -1168,10 +1168,6 @@ C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication
 qapplication.h
 C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h
 
-C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHeaderView
-qheaderview.h
-C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h
-
 C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel
 qlabel.h
 C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h
@@ -1304,12 +1300,6 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
--
-
-C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractitemview.h
 -
 
 C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h
@@ -1518,18 +1508,6 @@ D:/faculta/Sem 2/OOP/TableSweeper/GUI/vector
 algorithm
 D:/faculta/Sem 2/OOP/TableSweeper/GUI/algorithm
 
-D:/faculta/Sem 2/OOP/TableSweeper/GUI/Window.cpp
-Window.h
-D:/faculta/Sem 2/OOP/TableSweeper/GUI/Window.h
-string
-D:/faculta/Sem 2/OOP/TableSweeper/GUI/string
-QHeaderView
-D:/faculta/Sem 2/OOP/TableSweeper/GUI/QHeaderView
-QHeaderView
--
-QMessageBox
--
-
 D:/faculta/Sem 2/OOP/TableSweeper/GUI/Window.h
 QLabel
 -
@@ -1551,12 +1529,6 @@ QLineEdit
 -
 QTableWidget
 -
-
-D:/faculta/Sem 2/OOP/TableSweeper/Repository/Repo.cpp
-ctime
--
-Repo.h
-D:/faculta/Sem 2/OOP/TableSweeper/Repository/Repo.h
 
 D:/faculta/Sem 2/OOP/TableSweeper/Repository/Repo.h
 string
